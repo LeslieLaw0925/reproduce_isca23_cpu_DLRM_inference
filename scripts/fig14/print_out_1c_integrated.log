@@ -1,0 +1,542 @@
+Using CPU...
+start to create emb, minimally need ~3.814697265625 G memory 
+may actually use more memory depends on memory allocator like tcmalloc/jemalloc
+current mem usage: 0.2700996398925781 G
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+create emb done, current mem usage: 4.087196350097656 G
+time/loss/accuracy (if enabled):
+Initialize for not inference only done, current mem usage: 4.089027404785156 G
+Testing for inference only
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+ATen/Parallel:
+	at::get_num_threads() : 1
+	at::get_num_interop_threads() : 2
+OpenMP 201511 (a.k.a. OpenMP 4.5)
+	omp_get_max_threads() : 1
+Intel(R) oneAPI Math Kernel Library Version 2023.1-Product Build 20230303 for Intel(R) 64 architecture applications
+	mkl_get_max_threads() : 1
+Intel(R) MKL-DNN v2.6.0 (Git Hash 52b5f107dd9cf10910aaa19cb47f3abf9b349815)
+std::thread::hardware_concurrency() : 128
+Environment variables:
+	OMP_NUM_THREADS : 1
+	MKL_NUM_THREADS : [not set]
+ATen parallel backend: OpenMP
+
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_low/table_500K.txt,500000
+Average latency per example: 25.882ms
+Total number of iterations: 120
+Total number of iterations per second (across all threads): 38.64
+Total time: 3.106s
+Throughput: 2472.728 fps
+ 
+Using CPU...
+start to create emb, minimally need ~3.814697265625 G memory 
+may actually use more memory depends on memory allocator like tcmalloc/jemalloc
+current mem usage: 0.31365203857421875 G
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+create emb done, current mem usage: 4.132717132568359 G
+time/loss/accuracy (if enabled):
+Initialize for not inference only done, current mem usage: 4.132926940917969 G
+Testing for inference only
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+ATen/Parallel:
+	at::get_num_threads() : 1
+	at::get_num_interop_threads() : 2
+OpenMP 201511 (a.k.a. OpenMP 4.5)
+	omp_get_max_threads() : 1
+Intel(R) oneAPI Math Kernel Library Version 2023.1-Product Build 20230303 for Intel(R) 64 architecture applications
+	mkl_get_max_threads() : 1
+Intel(R) MKL-DNN v2.6.0 (Git Hash 52b5f107dd9cf10910aaa19cb47f3abf9b349815)
+std::thread::hardware_concurrency() : 128
+Environment variables:
+	OMP_NUM_THREADS : 1
+	MKL_NUM_THREADS : [not set]
+ATen parallel backend: OpenMP
+
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_medium/table_500K.txt,500000
+Average latency per example: 16.858ms
+Total number of iterations: 120
+Total number of iterations per second (across all threads): 59.32
+Total time: 2.023s
+Throughput: 3796.399 fps
+ 
+Using CPU...
+start to create emb, minimally need ~3.814697265625 G memory 
+may actually use more memory depends on memory allocator like tcmalloc/jemalloc
+current mem usage: 0.31365203857421875 G
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+Create Embedding: 500000
+create emb done, current mem usage: 4.132709503173828 G
+time/loss/accuracy (if enabled):
+Initialize for not inference only done, current mem usage: 4.132911682128906 G
+Testing for inference only
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+ATen/Parallel:
+	at::get_num_threads() : 1
+	at::get_num_interop_threads() : 2
+OpenMP 201511 (a.k.a. OpenMP 4.5)
+	omp_get_max_threads() : 1
+Intel(R) oneAPI Math Kernel Library Version 2023.1-Product Build 20230303 for Intel(R) 64 architecture applications
+	mkl_get_max_threads() : 1
+Intel(R) MKL-DNN v2.6.0 (Git Hash 52b5f107dd9cf10910aaa19cb47f3abf9b349815)
+std::thread::hardware_concurrency() : 128
+Environment variables:
+	OMP_NUM_THREADS : 1
+	MKL_NUM_THREADS : [not set]
+ATen parallel backend: OpenMP
+
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+dataset prod,/root/nfs/isca23_dlrm/reproduce_isca23_cpu_DLRM_inference/datasets/reuse_high/table_500K.txt,500000
+Average latency per example: 21.231ms
+Total number of iterations: 120
+Total number of iterations per second (across all threads): 47.10
+Total time: 2.548s
+Throughput: 3014.407 fps

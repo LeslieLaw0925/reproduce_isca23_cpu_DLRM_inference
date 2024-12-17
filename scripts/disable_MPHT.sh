@@ -1,4 +1,5 @@
 ## You should be present in $TORCH_PATH
+cd $TORCH_PATH
 git restore c10/core/thread_pool*
 git restore torch/csrc/utils/throughput_benchmark*
 python setup.py clean
